@@ -39,7 +39,7 @@
 		<!--文字输入-->
 		<div class=starter-template>
 			<h1>最简单的Bootstrap练习</h1>
-			<p class=lead>空思无才处，妙想破壁来</p>
+			<p class="lead text-danger">空思无才处，妙想破壁来</p>
 		</div>
 		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     	<script src="../../bootstrap-3.0.0/dist/js/bootstrap.min.js"></script>
