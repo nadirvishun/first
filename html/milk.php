@@ -52,6 +52,7 @@
 
 		<div class="container">
 			<div class="row show-grid">
+                <!--左侧菜单-->
 				<div class="col-md-3">
 				<?php
 					$xml=simplexml_load_file("../menu.xml");
@@ -59,9 +60,12 @@
 						print("<li>");
 						print($category["type"]);
 						print(":");
+						//左右关联
 						print("<ul class=\"subcategory\" id=\"myTab\">");
 						foreach($category->subcategory as $subcategory){
-							echo "<li><a data-toggle=\"tab\" href=\"#$subcategory[type]\">";
+							echo "<li><a data-toggle=\"tab\" href=\"#";
+							print($subcategory["type"]);
+							echo"\">";
 							print($subcategory["type"]);
 							print("</a></li>");
 							print("<li class=\"divider\">");
@@ -72,11 +76,67 @@
 				?>
 				</div>
 					
+				<!--右侧内容-->
 				<div class="col-md-9">
+				<!--轮显-->
+				<div  class="container">
+		<div id="mysubcarousel" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#mysubcarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#mysubcarousel" data-slide-to="1" ></li>
+				<li data-target="#mysubcarousel" data-slide-to="2" ></li>
+			</ol>
+			<div  class="carousel-inner">
+				<div class="item active">
+					<img  src="../img/12.jpg" width="900" height="280" alt="first slide">
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>炫彩</h1>
+						<p>just some words,I want say nothing!</p>
+						<p><a class="btn btn-primary" href="#" role="button">Sign up today</a></p>
+					</div>
+				</div>
+				</div>
+				<div class="item">
+					<img src="2.jpg" width="900" height="280" alt="second slide">
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>立方</h1>
+						<p>just some words,I want say nothing!</p>
+						<p><a class="btn btn-info" href="#" role="button">Sign up today</a></p>
+					</div>
+				</div>
+				</div>
+				<div class="item">
+					<img src="3.jpg" width="900" height="280" alt="third slide">
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>心动</h1>
+						<p>just some words,I want say nothing!</p>
+						<p><a class="btn btn-success" href="#" role="button">Sign up today</a></p>
+					</div>
+				</div>
+				</div>
+			</div>	
+			<a class="left carousel-control" href="#mysubcarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+			<a class="right carousel-control" href="#mysubcarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+		</div>
+
+					<!--具体内容-->
+					 <!--左右关联-->
 					 <div class="tab-content" id="myTabContent">
-        				<div id="鲜奶" class="tab-pane fade">
-      				    <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
-    				    </div>
+						<?foreach($category->subcategory as $subcategory):?>
+        				<div id="<?=$subcategory["type"];?>" class="tab-pane fade">
+						<div class="row show-grid">
+						<?foreach($subcategory->item as $item):?>
+						<!--一行显示4个产品-->
+							<div class="col-md-3">
+							<?=$item["name"];?>
+    				    	</div>
+						<?endforeach;?>
+						</div>
+						</div>
+						<?endforeach;?>
 					</div>
 				</div>
 			</div>

@@ -11,7 +11,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="../bootstrap/bootstrap-3.0.0/dist/css/bootstrap.css" rel="stylesheet">
-
+	<link href="../bootstrap/bootstrap-3.0.0/assets/css/docs.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="../css/you.css" rel="stylesheet">
 
@@ -95,23 +95,23 @@
 		</div>
 
 	<div class="container marketing">
-		<div class="row">
+		<div class="row show-grid">
 			<div class="col-md-4">
-				<img class="img-circle" width="250" height="250" src="4.jpg" alt="fourth picture">
+				<img class="img-circle" width="250" height="250" src="../img/11.jpg" alt="fourth picture">
 				<h2>凉州词</h2>
 				<p>葡萄美酒夜光杯，欲饮琵琶马上催。</p>
 				<p>醉卧沙场君莫笑，古来征战几人回。</p>
 				<p><a class="btn btn-default" href="#">View details &raquo;</a></p>
 			</div>		
 			<div class="col-md-4">
-				<img class="img-circle" width="250" height="250" src="5.jpg" alt="fourth picture">
+				<img class="img-circle" width="250" height="250" src="../img/12.jpg" alt="fourth picture">
 				<h2>咏柳</h2>
 				<p>碧玉妆成一树高，万条垂下绿丝绦。</p>
 				<p>不知细叶谁裁出，二月春风似剪刀。</p>
 				<p><a class="btn btn-default" href="#">View details &raquo;</a></p>
 			</div>		
 			<div class="col-md-4">
-				<img class="img-circle" width="250" height="250" src="6.jpg" alt="fourth picture">
+				<img class="img-circle" width="250" height="250" src="../img/13.jpg" alt="fourth picture">
 				<h2>秋夕</h2>
 				<p>银烛秋光冷画屏，轻罗小扇扑流萤。</p>
 				<p>天阶夜色凉如水，坐看牵牛织女星。</p>

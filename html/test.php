@@ -48,6 +48,7 @@
 	echo $xml->menu[0]->category[0]->subcategory[0]->item[0]->img;
 	print("'>");
 	print("</img>");
+			print($subcategory["type"]);
 ?>
 </body>
 </html>
