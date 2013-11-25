@@ -4,6 +4,7 @@
 		<category type="奶类">
 			<subcategory type="鲜奶">
 				<item name="鲜奶">
+					<img>../img/1.jpg</img>
 					<price size="半斤">2.5</price>
 					<price size="一斤">5.0</price>
 				</item>
