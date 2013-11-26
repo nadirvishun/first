@@ -1,5 +1,5 @@
 body{
-    padding-top: 70px;
+    padding-top: 80px;
 	background-color:#eeeeee;
 	list-style: none;
 }
@@ -30,17 +30,34 @@ body{
 .navbar-default {
   background-color: #ffffff;
   border-color: #e7e7e7;
+ 
 }
 .navbar {
   padding-left: 100px;
+  min-height:20px;
+  height:50px;
 }
-.subcategory{
+.navbar-brand {
+ font-size:23px;
+ font-weight:200;
+  line-height: 20px;
+  font-family:"幼圆";
+}
+
+.subul{
 	list-style:none;
 }
-.subcategory .divider {
+.subul .divider {
   height: 1px;
   width:20%;
   margin: 9px 0;
   overflow: hidden;
   background-color: #e5e5e5;
+  margin-left:33px;
+}
+.subli{
+	margin-left:40px;
+}
+.tab-content{
+	margin-top:30px;
 }

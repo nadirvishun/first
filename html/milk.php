@@ -26,44 +26,28 @@
     <![endif]-->
 	</head>
 	<body>
-			<div class="container">
-			<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-				<div class="navbar-header">
-					<a class="navbar-brand" href="#">优格尔</a>
-				</div>
-				<div class="">
-					<ul class="nav navbar-nav">
-						<li><a href="#">首页</a></li>
-						<li><a href="#">关于我们</a></li>
-						<li><a href="#">联系我们</a></li>
-						<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">招商加盟<span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">A</a></li>
-								<li><a href="#">B</a></li>
-								<li><a href="#">C</a></li>
-								<li class="devider"></li>
-								<li><a href="#">D</a></li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-				</div>
-			</div>
-
+	    <?include '../include/header.php';?>
 		<div class="container">
 			<div class="row show-grid">
                 <!--左侧菜单-->
 				<div class="col-md-3">
 				<?php
-					$xml=simplexml_load_file("../menu.xml");
+					$xml=simplexml_load_file("../data/menu.xml");
 					$category=$xml->menu->category;
-						print("<li>");
+						//左右关联
+						print("<ul class=\"subul\" id=\"myTab\">");
+						echo "<li class=\"active\"><a data-toggle=\"tab\" href=\"#";
+						print($category["type"]);
+						echo"\">";
+						print("<h3>");
 						print($category["type"]);
 						print(":");
-						//左右关联
-						print("<ul class=\"subcategory\" id=\"myTab\">");
+						print("</h3>");
+						print("<br/>");
+						print("</a></li>");
+						
 						foreach($category->subcategory as $subcategory){
-							echo "<li><a data-toggle=\"tab\" href=\"#";
+							echo "<li class=\"subli\"><a data-toggle=\"tab\" href=\"#";
 							print($subcategory["type"]);
 							echo"\">";
 							print($subcategory["type"]);
@@ -72,7 +56,6 @@
 							print("</li>");
 						}
 						print("</ul>");
-						echo ("</li>");
 				?>
 				</div>
 					
@@ -124,14 +107,35 @@
 
 					<!--具体内容-->
 					 <!--左右关联-->
+
 					 <div class="tab-content" id="myTabContent">
+        			<div id="<?=$category["type"];?>" class="tab-pane fade in active">
+						<!--先显示全部商品-->
+						<div class="row show-grid">
+						<?foreach($xml->menu->category->subcategory as $subcategory):?>
+							<?foreach($subcategory->item as $item):?>
+							<div class="col-md-4">
+								<?foreach($item->img as $img):?>
+									<img src="<?=$img?>" height="175px">
+								<?endforeach?>
+								<?=$item["name"]?>
+							</div>
+							<?endforeach;?>
+						<?endforeach;?>
+						</div>
+					</div>
+						<!--显示分类商品-->
 						<?foreach($category->subcategory as $subcategory):?>
         				<div id="<?=$subcategory["type"];?>" class="tab-pane fade">
+						
 						<div class="row show-grid">
 						<?foreach($subcategory->item as $item):?>
 						<!--一行显示4个产品-->
-							<div class="col-md-3">
-							<?=$item["name"];?>
+							<div class="col-md-4">
+								<?foreach($item->img as $img):?>
+									<img src="<?=$img?>" height="175px">
+								<?endforeach?>
+								<?=$item["name"];?>
     				    	</div>
 						<?endforeach;?>
 						</div>
@@ -140,6 +144,7 @@
 					</div>
 				</div>
 			</div>
+		</div>
 		</div>
 	
 	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>

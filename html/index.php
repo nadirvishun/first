@@ -25,32 +25,7 @@
     <![endif]-->
 	</head>
 	<body>
-		<div class="navbar-wrapper">
-			<div class="container">
-			<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-				<div class="navbar-header">
-					<a class="navbar-brand" href="#">优格尔</a>
-				</div>
-				<div class="">
-					<ul class="nav navbar-nav">
-						<li><a href="#">首页</a></li>
-						<li><a href="#">关于我们</a></li>
-						<li><a href="#">联系我们</a></li>
-						<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">招商加盟<span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="#">A</a></li>
-								<li><a href="#">B</a></li>
-								<li><a href="#">C</a></li>
-								<li class="devider"></li>
-								<li><a href="#">D</a></li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-				</div>
-			</div>
-		</div>	
-
+		<?include '../include/header.php';?>
 		<div id="container1" class="container">
 		<div id="mycarousel" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
@@ -101,7 +76,7 @@
 				<h2>凉州词</h2>
 				<p>葡萄美酒夜光杯，欲饮琵琶马上催。</p>
 				<p>醉卧沙场君莫笑，古来征战几人回。</p>
-				<p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+				<p><a class="btn btn-default" href="milk.php">View details &raquo;</a></p>
 			</div>		
 			<div class="col-md-4">
 				<img class="img-circle" width="250" height="250" src="../img/12.jpg" alt="fourth picture">
