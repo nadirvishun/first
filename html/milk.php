@@ -61,16 +61,7 @@
 				?>
 				</div>
 				<!--小贴士-->	
-				<div class="container2">
-					<h2><span class="glyphicon glyphicon-leaf"></span>小贴士</h2>
-					<?
-						$a=array("一定要记得刷牙啊",
-						"忘记了怎么办？",
-						"这行写长一点，看看什么效果！不够长，再长一点，再长一点！");
-						shuffle($a);
-					?>
-					<p><?=$a[0];?></p>
-				</div>				
+				<?include '../include/left_xts.php';?>
 				</div>
 
 				<!--右侧内容-->

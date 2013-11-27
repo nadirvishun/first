@@ -48,14 +48,21 @@ body{
   border: 1px solid rgba(86,61,124,.2);
 }
 
-.container2 h2{
+.xts h2{
   text-align:center;
   color:#99cc00;
+}
+.xts p{
+	padding-left:20px;
+	padding-right:10px;
+	padding-top:10px;
+	padding-bottom:20px;
+	font-size:22px;
 }
 .navbar-default {
   background-color: #ffffff;
   border-color: #e7e7e7;
- 
+
 }
 .navbar {
   padding-left: 100px;
@@ -67,6 +74,10 @@ body{
  font-weight:200;
   line-height: 20px;
   font-family:"幼圆";
+ 
+}
+.navbar-default .navbar-brand {
+     color:#EEEE00
 }
 
 .show-grid [class^="col-"] {
