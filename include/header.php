@@ -6,7 +6,7 @@
 		</div>
 		<div class="">
 			<ul class="nav navbar-nav">
-				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-th"></span> 产品 <span class="caret"></span></a>
+				<li class="dropdown headli"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-th"></span> 美食中心 <span class="caret"></span></a>
 
 					<ul class="dropdown-menu">
 						<li><a href="#">A</a></li>
@@ -16,8 +16,8 @@
 						<li><a href="#">D</a></li>
 					</ul>
 				</li>
-				<li><a href="#"><span class="glyphicon glyphicon-user"></span> 关于我们</a></li>
-				<li><a href="#"><span class="glyphicon glyphicon-fire"></span> 招商加盟</a></li>
+				<li class="headli"><a href="#"><span class="glyphicon glyphicon-user"></span> 关于我们</a></li>
+				<li class="headli"><a href="#"><span class="glyphicon glyphicon-fire"></span> 招商加盟</a></li>
 			</ul>
 		</div>
 	</div>

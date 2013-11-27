@@ -28,9 +28,10 @@
 	<body>
 	    <?include '../include/header.php';?>
 		<div class="container">
-			<div class="row show-grid">
+			<div class="row ">
                 <!--左侧菜单-->
 				<div class="col-md-3">
+				<div class="container2">
 				<?php
 					$xml=simplexml_load_file("../data/menu.xml");
 					$category=$xml->menu->category;
@@ -40,6 +41,7 @@
 						print($category["type"]);
 						echo"\">";
 						print("<h3>");
+						print("<span class=\"glyphicon glyphicon-tint\"></span>");						
 						print($category["type"]);
 						print(":");
 						print("</h3>");
@@ -58,11 +60,23 @@
 						print("</ul>");
 				?>
 				</div>
-					
+				<!--小贴士-->	
+				<div class="container2">
+					<h2><span class="glyphicon glyphicon-leaf"></span>小贴士</h2>
+					<?
+						$a=array("一定要记得刷牙啊",
+						"忘记了怎么办？",
+						"这行写长一点，看看什么效果！不够长，再长一点，再长一点！");
+						shuffle($a);
+					?>
+					<p><?=$a[0];?></p>
+				</div>				
+				</div>
+
 				<!--右侧内容-->
 				<div class="col-md-9">
 				<!--轮显-->
-				<div  class="container">
+				<div  class="container2">
 		<div id="mysubcarousel" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
 				<li data-target="#mysubcarousel" data-slide-to="0" class="active"></li>
@@ -116,7 +130,7 @@
 							<?foreach($subcategory->item as $item):?>
 							<div class="col-md-4">
 								<?foreach($item->img as $img):?>
-									<img src="<?=$img?>" height="175px">
+									<img src="<?=$img?>" height="160px">
 								<?endforeach?>
 								<?=$item["name"]?>
 							</div>
