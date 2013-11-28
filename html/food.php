@@ -7,7 +7,6 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    
     <title>优格尔鲜奶吧</title>
 	<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
 
@@ -37,7 +36,7 @@
 				<div class="container2">
 				<?php
 					$xml=simplexml_load_file("../data/menu.xml");
-					$category=$xml->menu->category;
+					$category=$xml->menu->category[2];
 						//左右关联
 						print("<ul class=\"subul\" id=\"myTab\">");
 						echo "<li class=\"active\"><a data-toggle=\"tab\" href=\"#";
@@ -81,7 +80,7 @@
 			</ol>
 			<div  class="carousel-inner">
 				<div class="item active">
-					<img  src="../img/12.jpg"   alt="first slide">
+					<img  src="../img/12.jpg"  alt="first slide">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>炫彩</h1>
@@ -91,7 +90,7 @@
 				</div>
 				</div>
 				<div class="item">
-					<img src="../img/12.jpg"  alt="second slide">
+					<img src="2.jpg"  alt="second slide">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>立方</h1>
@@ -101,7 +100,7 @@
 				</div>
 				</div>
 				<div class="item">
-					<img src="../img/12.jpg"  alt="third slide">
+					<img src="3.jpg"  alt="third slide">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>心动</h1>
@@ -110,25 +109,24 @@
 					</div>
 				</div>
 				</div>
+			</div>
 			</div>	
 		</div>
-			</div>
 
 					<!--具体内容-->
 					 <!--左右关联-->
-                     <div class="container">
+					<div class="container">
 					 <div class="tab-content" id="myTabContent">
         			<div id="<?=$category["type"];?>" class="tab-pane fade in active">
 						<!--先显示全部商品-->
-						<div class="row ">
-						<?foreach($xml->menu->category->subcategory as $subcategory):?>
+						<div class="row">
+						<?foreach($xml->menu->category[2]->subcategory as $subcategory):?>
 							<?foreach($subcategory->item as $item):?>
 							<div class="col-md-4">
 							<div class="thumbnail smallimg">
 								<?foreach($item->img as $img):?>
 									<img src="<?=$img?>" width="250px" height="160px">
 								<?endforeach?>
-								<br/>
 								<?=$item["name"]?>
 							</div>
 							</div>
@@ -148,7 +146,6 @@
 								<?foreach($item->img as $img):?>
 									<img src="<?=$img?>" width="250px" height="175px">
 								<?endforeach?>
-								<br/>
 								<?=$item["name"];?>
     				    	</div>
 							</div>
@@ -158,7 +155,7 @@
 						<?endforeach;?>
 					</div>
 				</div>
-				</div>
+			</div>
 			</div>
 		</div>
 		</div>

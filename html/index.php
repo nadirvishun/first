@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="vishun">
 
-    <title>Carousel Template for Bootstrap</title>
-
+    <title>优格尔鲜奶吧</title>
+	<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
     <!-- Bootstrap core CSS -->
     <link href="../bootstrap/bootstrap-3.0.0/dist/css/bootstrap.css" rel="stylesheet">
 	<link href="../bootstrap/bootstrap-3.0.0/assets/css/docs.css" rel="stylesheet">
@@ -26,7 +26,8 @@
 	</head>
 	<body>
 		<?include '../include/header.php';?>
-		<div id="container1" class="container">
+		<div class="container">
+		<div class="container1">
 		<div id="mycarousel" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
 				<li data-target="#mycarousel" data-slide-to="0" class="active"></li>
@@ -35,7 +36,7 @@
 			</ol>
 			<div  class="carousel-inner">
 				<div class="item active">
-					<img  src="../img/1.jpg" width="900" height="280" alt="first slide">
+					<img  src="../img/1.jpg"  alt="first slide">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>炫彩</h1>
@@ -45,7 +46,7 @@
 				</div>
 				</div>
 				<div class="item">
-					<img src="2.jpg" width="900" height="280" alt="second slide">
+					<img src="../img/2.jpg" width="900" height="280" alt="second slide">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>立方</h1>
@@ -55,7 +56,7 @@
 				</div>
 				</div>
 				<div class="item">
-					<img src="3.jpg" width="900" height="280" alt="third slide">
+					<img src="../img/3.jpg" width="900" height="280" alt="third slide">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>心动</h1>
@@ -68,29 +69,36 @@
 			<a class="left carousel-control" href="#mycarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
 			<a class="right carousel-control" href="#mycarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 		</div>
+		</div>
 
 	<div class="container marketing">
-		<div class="row show-grid">
+		<div class="row">
 			<div class="col-md-4">
+				<div class="thumbnail bigimg">
 				<img class="img-circle" width="250" height="250" src="../img/11.jpg" alt="fourth picture">
-				<h2>凉州词</h2>
+				<h2>奶品类</h2>
 				<p>葡萄美酒夜光杯，欲饮琵琶马上催。</p>
 				<p>醉卧沙场君莫笑，古来征战几人回。</p>
-				<p><a class="btn btn-default" href="milk.php">View details &raquo;</a></p>
+				<p><a class="btn btn-default" href="milk.php">查看详情 &raquo;</a></p>
+				</div>
 			</div>		
 			<div class="col-md-4">
+				<div class="thumbnail bigimg">
 				<img class="img-circle" width="250" height="250" src="../img/12.jpg" alt="fourth picture">
-				<h2>咏柳</h2>
+				<h2>冰品类</h2>
 				<p>碧玉妆成一树高，万条垂下绿丝绦。</p>
 				<p>不知细叶谁裁出，二月春风似剪刀。</p>
-				<p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+				<p><a class="btn btn-default" href="ice.php">查看详情 &raquo;</a></p>
+				</div>
 			</div>		
 			<div class="col-md-4">
+				<div class="thumbnail bigimg">
 				<img class="img-circle" width="250" height="250" src="../img/13.jpg" alt="fourth picture">
-				<h2>秋夕</h2>
+				<h2>小吃类</h2>
 				<p>银烛秋光冷画屏，轻罗小扇扑流萤。</p>
 				<p>天阶夜色凉如水，坐看牵牛织女星。</p>
-				<p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+				<p><a class="btn btn-default" href="food.php">查看详情 &raquo;</a></p>
+				</div>
 			</div>		
 		</div>	
 		

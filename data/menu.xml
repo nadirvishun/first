@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menus>
 	<menu name="尤格尔鲜奶吧">
-		<category type="奶类">
+		<category type="奶品类">
 			<subcategory type="鲜奶">
 				<item name="鲜奶">
-					<img>../img/2.jpg</img>
+					<img>../img/milk/鲜奶.jpg</img>
 					<price size="半斤">2.5</price>
 					<price size="一斤">5.0</price>
 				</item>
@@ -12,26 +12,26 @@
 		
 			<subcategory type="酸奶">
 				<item name="原味酸奶">
-					<img>../img/2.jpg</img>
+					<img>../img/milk/酸奶.jpg</img>
 					<price size="大">5.0</price>
 					<price size="小">4.0</price>
 				</item>
 				<item name="搅拌酸奶">
-					<img>../img/2.jpg</img>
+					<img>../img/milk/酸奶.jpg</img>
 					<price>5.0</price>
 				</item>
 				<item name="草莓果酱酸奶"> d
-					<img>../img/2.jpg</img>
+					<img>../img/milk/酸奶.jpg</img>
 					<price size="大">6.0</price>
 					<price size="小">5.0</price>
 				</item>
 				<item name="芒果果酱酸奶">
-					<img>../img/2.jpg</img>
+					<img>../img/milk/酸奶.jpg</img>
 					<price size="大">6.0</price>
 					<price size="小">5.0</price>
 				</item>
 				<item name="水蜜桃果酱酸奶">
-					<img>../img/2.jpg</img>
+					<img>../img/milk/酸奶.jpg</img>
 					<price size="大">6.0</price>
 					<price size="小">5.0</price>
 				</item> 
@@ -39,47 +39,47 @@
 		
 			<subcategory type="奶茶">
 				<item name="蓝莓奶茶">
-					<img>../img/2.jpg</img>
+					<img>../img/milk/奶茶.jpg</img>
 					<price>8.0</price>
 				</item> 
 				<item name="芒果奶茶">
-					<img>../img/2.jpg</img>
+					<img>../img/milk/奶茶.jpg</img>
 					<price>8.0</price>
 				</item>
 				<item name="水蜜桃奶茶">
-					<img>../img/2.jpg</img>
+					<img>../img/milk/奶茶.jpg</img>
 					<price>8.0</price>
 				</item>
 			</subcategory>
 		</category>
 		
-		<category type="冰制品类">
+		<category type="冰品类">
 			<subcategory type="冰淇淋">
 				<item name="原味冰淇淋">
-					<img>../img/2.jpg</img>
+					<img>../img/ice/冰淇淋.jpg</img>
 					<price>5.0</price>
 				</item>
 				<item name="蓝莓冰淇淋">
-					<img>../img/2.jpg</img>
+					<img>../img/ice/冰淇淋.jpg</img>
 					<price>5.0</price>
 				</item>
 				<item name="混合冰淇淋">
-					<img>../img/2.jpg</img>
+					<img>../img/ice/冰淇淋.jpg</img>
 					<price>5.0</price>
 				</item>
 			</subcategory>
 			
-			<subcategory type="刨冰">
-				<item name="草莓刨冰">
-					<img>../img/2.jpg</img>
+			<subcategory type="冰粥">
+				<item name="草莓冰粥">
+					<img>../img/ice/冰粥.jpg</img>
 					<price>5.0</price>
 				</item>
-				<item name="芒果刨冰">
-					<img>../img/2.jpg</img>
+				<item name="芒果冰粥">
+					<img>../img/ice/冰粥.jpg</img>
 					<price>5.0</price>
 				</item>
-				<item name="水蜜桃刨冰">
-					<img>../img/2.jpg</img>
+				<item name="水蜜桃冰粥">
+					<img>../img/ice/冰粥.jpg</img>
 					<price>5.0</price>
 				</item>
 			</subcategory>
@@ -88,11 +88,11 @@
 		<category type="小吃类">
 			<subcategory type="奶酪">
 				<item name="奶提子">
-					<img>../img/2.jpg</img>
+					<img>../img/food/奶提子.jpg</img>
 					<price>15.0</price>
 				</item>
 				<item name="马背奶干">
-					<img>../img/2.jpg</img>
+					<img>../img/food/奶干.jpg</img>
 					<price size="大">25.0</price>
 					<price size="小">20.0</price>
 				</item>
@@ -100,30 +100,30 @@
 			
 			<subcategory type="汉堡">
 				<item name="牛肉汉堡">
-					<img>../img/2.jpg</img>
+					<img>../img/food/汉堡.jpg</img>
 					<price>7.0</price>
 				</item>
 				<item name="鸡肉汉堡">
-					<img>../img/2.jpg</img>
+					<img>../img/food/汉堡.jpg</img>
 					<price>5.0</price>
 				</item>
 				<item name="鸡腿肉汉堡">
-					<img>../img/2.jpg</img>
+					<img>../img/food/汉堡.jpg</img>
 					<price>7.0</price>
 				</item>
 			</subcategory>
 			
 			<subcategory type="其它">
 				<item name="烤肠">
-					<img>../img/2.jpg</img>
+					<img>../img/food/烤肠.jpg</img>
 					<price>3.0</price>
 				</item>
 				<item name="爆米花">
-					<img>../img/2.jpg</img>
+					<img>../img/food/爆米花.jpg</img>
 					<price>3.0</price>
 				</item>
 				<item name="蛋挞">
-					<img>../img/2.jpg</img>
+					<img>../img/food/蛋挞.jpg</img>
 					<price>3.0</price>
 				</item>
 			</subcategory>

@@ -8,11 +8,11 @@
 				<li class="dropdown headli"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-th"></span> 美食中心 <span class="caret"></span></a>
 
 					<ul class="dropdown-menu">
-						<li><a href="milk.php">奶类</a></li>
+						<li><a href="milk.php">奶品类</a></li>
 						<li class="divider"></li>
-						<li><a href="#">冰制品类</a></li>
+						<li><a href="ice.php">冰品类</a></li>
 						<li class="divider"></li>
-						<li><a href="#">小吃类</a></li>
+						<li><a href="food.php">小吃类</a></li>
 					</ul>
 				</li>
 				<li class="headli"><a href="#"><span class="glyphicon glyphicon-user"></span> 关于我们</a></li>
