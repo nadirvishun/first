@@ -34,9 +34,9 @@
 				<li data-target="#mycarousel" data-slide-to="1" ></li>
 				<li data-target="#mycarousel" data-slide-to="2" ></li>
 			</ol>
-			<div  class="carousel-inner">
+			<div  class="carousel-inner bigcarousel">
 				<div class="item active">
-					<img  src="../img/1.jpg"  alt="first slide">
+					<img  src="../img/bigcarousel_1.jpg"  alt="first slide">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>炫彩</h1>
@@ -46,7 +46,7 @@
 				</div>
 				</div>
 				<div class="item">
-					<img src="../img/2.jpg" width="900" height="280" alt="second slide">
+					<img src="../img/bigcarousel_2.jpg" width="900" height="280" alt="second slide">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>立方</h1>
@@ -56,7 +56,7 @@
 				</div>
 				</div>
 				<div class="item">
-					<img src="../img/3.jpg" width="900" height="280" alt="third slide">
+					<img src="../img/bigcarousel_3.jpg" width="900" height="280" alt="third slide">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>心动</h1>
@@ -75,7 +75,7 @@
 		<div class="row">
 			<div class="col-md-4">
 				<div class="thumbnail bigimg">
-				<img class="img-circle" width="250" height="250" src="../img/11.jpg" alt="fourth picture">
+				<img class="img-circle" width="250" height="250" src="../img/bigimg_1.jpg" alt="fourth picture">
 				<h2>奶品类</h2>
 				<p>葡萄美酒夜光杯，欲饮琵琶马上催。</p>
 				<p>醉卧沙场君莫笑，古来征战几人回。</p>
@@ -84,7 +84,7 @@
 			</div>		
 			<div class="col-md-4">
 				<div class="thumbnail bigimg">
-				<img class="img-circle" width="250" height="250" src="../img/12.jpg" alt="fourth picture">
+				<img class="img-circle" width="250" height="250" src="../img/bigimg_2.jpg" alt="fourth picture">
 				<h2>冰品类</h2>
 				<p>碧玉妆成一树高，万条垂下绿丝绦。</p>
 				<p>不知细叶谁裁出，二月春风似剪刀。</p>
@@ -93,7 +93,7 @@
 			</div>		
 			<div class="col-md-4">
 				<div class="thumbnail bigimg">
-				<img class="img-circle" width="250" height="250" src="../img/13.jpg" alt="fourth picture">
+				<img class="img-circle" width="250" height="250" src="../img/bigimg_3.jpg" alt="fourth picture">
 				<h2>小吃类</h2>
 				<p>银烛秋光冷画屏，轻罗小扇扑流萤。</p>
 				<p>天阶夜色凉如水，坐看牵牛织女星。</p>

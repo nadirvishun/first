@@ -78,7 +78,7 @@
 				<li data-target="#mysubcarousel" data-slide-to="1" ></li>
 				<li data-target="#mysubcarousel" data-slide-to="2" ></li>
 			</ol>
-			<div  class="carousel-inner">
+			<div  class="carousel-inner smallcarousel">
 				<div class="item active">
 					<img  src="../img/12.jpg"  alt="first slide">
 				<div class="container">

@@ -79,9 +79,9 @@
 				<li data-target="#mysubcarousel" data-slide-to="1" ></li>
 				<li data-target="#mysubcarousel" data-slide-to="2" ></li>
 			</ol>
-			<div  class="carousel-inner">
+			<div  class="carousel-inner smallcarousel">
 				<div class="item active">
-					<img  src="../img/12.jpg"   alt="first slide">
+					<img  src="../img/milk/smallcarousel_milk_1.jpg"   alt="first slide">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>炫彩</h1>
@@ -91,7 +91,7 @@
 				</div>
 				</div>
 				<div class="item">
-					<img src="../img/12.jpg"  alt="second slide">
+					<img src="../img/milk/smallcarousel_milk_1.jpg"  alt="second slide">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>立方</h1>
@@ -101,7 +101,7 @@
 				</div>
 				</div>
 				<div class="item">
-					<img src="../img/12.jpg"  alt="third slide">
+					<img src="../img/milk/smallcarousel_milk_1.jpg"  alt="third slide">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>心动</h1>
