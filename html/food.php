@@ -80,7 +80,7 @@
 			</ol>
 			<div  class="carousel-inner smallcarousel">
 				<div class="item active">
-					<img  src="../img/12.jpg"  alt="first slide">
+					<img  src="../img/food/smallcarousel_food_1.jpg"  alt="first slide">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>炫彩</h1>
@@ -90,7 +90,7 @@
 				</div>
 				</div>
 				<div class="item">
-					<img src="2.jpg"  alt="second slide">
+					<img src="../img/food/smallcarousel_food_1.jpg"  alt="second slide">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>立方</h1>
@@ -100,7 +100,7 @@
 				</div>
 				</div>
 				<div class="item">
-					<img src="3.jpg"  alt="third slide">
+					<img src="../img/food/smallcarousel_food_1.jpg"  alt="third slide">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>心动</h1>

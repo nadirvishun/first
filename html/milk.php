@@ -126,7 +126,7 @@
 							<div class="col-md-4">
 							<div class="thumbnail smallimg">
 								<?foreach($item->img as $img):?>
-									<img src="<?=$img?>" width="250px" height="160px">
+									<img src="<?=$img?>" >
 								<?endforeach?>
 								<br/>
 								<?=$item["name"]?>
@@ -146,7 +146,7 @@
 							<div class="col-md-4">
 							<div class="thumbnail smallimg">
 								<?foreach($item->img as $img):?>
-									<img src="<?=$img?>" width="250px" height="175px">
+									<img src="<?=$img?>" >
 								<?endforeach?>
 								<br/>
 								<?=$item["name"];?>

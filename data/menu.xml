@@ -4,7 +4,7 @@
 		<category type="奶品类">
 			<subcategory type="鲜奶">
 				<item name="鲜奶">
-					<img>../img/milk/鲜奶.jpg</img>
+					<img>../img/milk/smallimg_xn.jpg</img>
 					<price size="半斤">2.5</price>
 					<price size="一斤">5.0</price>
 				</item>
@@ -12,26 +12,26 @@
 		
 			<subcategory type="酸奶">
 				<item name="原味酸奶">
-					<img>../img/milk/酸奶.jpg</img>
+					<img>../img/milk/smallimg_sn.jpg</img>
 					<price size="大">5.0</price>
 					<price size="小">4.0</price>
 				</item>
 				<item name="搅拌酸奶">
-					<img>../img/milk/酸奶.jpg</img>
+					<img>../img/milk/smallimg_sn.jpg</img>
 					<price>5.0</price>
 				</item>	
-				<item name="草莓果酱酸奶"> d
-					<img>../img/milk/酸奶.jpg</img>
+				<item name="草莓果酱酸奶">
+					<img>../img/milk/smallimg_sn.jpg</img>
 					<price size="大">6.0</price>
 					<price size="小">5.0</price>
 				</item>
 				<item name="芒果果酱酸奶">
-					<img>../img/milk/酸奶.jpg</img>
+					<img>../img/milk/smallimg_sn.jpg</img>
 					<price size="大">6.0</price>
 					<price size="小">5.0</price>
 				</item>
 				<item name="水蜜桃果酱酸奶">
-					<img>../img/milk/酸奶.jpg</img>
+					<img>../img/milk/smallimg_sn.jpg</img>
 					<price size="大">6.0</price>
 					<price size="小">5.0</price>
 				</item> 
@@ -39,30 +39,30 @@
 		
 			<subcategory type="奶茶">
 				<item name="蓝莓奶茶">
-					<img>../img/milk/奶茶.jpg</img>
+					<img>../img/milk/smallimg_nc.jpg</img>
 					<price>8.0</price>
 				</item> 
 				<item name="芒果奶茶">
-					<img>../img/milk/奶茶.jpg</img>
+					<img>../img/milk/smallimg_nc.jpg</img>
 					<price>8.0</price>
 				</item>
 				<item name="水蜜桃奶茶">
-					<img>../img/milk/奶茶.jpg</img>
+					<img>../img/milk/smallimg_nc.jpg</img>
 					<price>8.0</price>
 				</item>
 			</subcategory>
 			
 			<subcategory type="奶昔">
 				<item name="蓝莓奶昔">
-					<img>../img/milk/奶茶.jpg</img>
+					<img>../img/milk/smallimg_nx.jpg</img>
 					<price>8.0</price>
 				</item> 
 				<item name="芒果奶昔">
-					<img>../img/milk/奶茶.jpg</img>
+					<img>../img/milk/smallimg_nx.jpg</img>
 					<price>8.0</price>
 				</item>
 				<item name="水蜜桃奶昔">
-					<img>../img/milk/奶茶.jpg</img>
+					<img>../img/milk/smallimg_nx.jpg</img>
 					<price>8.0</price>
 				</item>
 			</subcategory>
@@ -71,45 +71,45 @@
 		<category type="冰品类">
 			<subcategory type="冰淇淋">
 				<item name="鲜奶冰淇淋">
-					<img>../img/ice/冰淇淋.jpg</img>
+					<img>../img/ice/smallimg_bql.jpg</img>
 					<price>5.0</price>
 				</item>
 				<item name="蓝莓冰淇淋">
-					<img>../img/ice/冰淇淋.jpg</img>
+					<img>../img/ice/smallimg_bql.jpg</img>
 					<price>5.0</price>
 				</item>
 				<item name="圣代冰淇淋">
-					<img>../img/ice/冰淇淋.jpg</img>
+					<img>../img/ice/smallimg_bql.jpg</img>
 					<price>5.0</price>
 				</item>
 			</subcategory>
 			
 			<subcategory type="冰粥">
 				<item name="草莓冰粥">
-					<img>../img/ice/冰粥.jpg</img>
+					<img>../img/ice/smallimg_bj.jpg</img>
 					<price>5.0</price>
 				</item>
 				<item name="芒果冰粥">
-					<img>../img/ice/冰粥.jpg</img>
+					<img>../img/ice/smallimg_bj.jpg</img>
 					<price>5.0</price>
 				</item>
 				<item name="水蜜桃冰粥">
-					<img>../img/ice/冰粥.jpg</img>
+					<img>../img/ice/smallimg_bj.jpg</img>
 					<price>5.0</price>
 				</item>
 			</subcategory>
 			
 			<subcategory type="雪泥">
 				<item name="草莓雪泥">
-					<img>../img/ice/冰粥.jpg</img>
+					<img>../img/ice/smallimg_xn.jpg</img>
 					<price>8.0</price>
 				</item>
 				<item name="芒果雪泥">
-					<img>../img/ice/冰粥.jpg</img>
+					<img>../img/ice/smallimg_xn.jpg</img>
 					<price>8.0</price>
 				</item>
 				<item name="水蜜桃雪泥">
-					<img>../img/ice/冰粥.jpg</img>
+					<img>../img/ice/smallimg_xn.jpg</img>
 					<price>8.0</price>
 				</item>
 			</subcategory>
@@ -118,39 +118,39 @@
 		<category type="小吃类">			
 			<subcategory type="汉堡">
 				<item name="牛肉汉堡">
-					<img>../img/food/汉堡.jpg</img>
+					<img>../img/food/smallimg_hb.jpg</img>
 					<price>7.0</price>
 				</item>
 				<item name="鸡肉汉堡">
-					<img>../img/food/汉堡.jpg</img>
+					<img>../img/food/smallimg_hb.jpg</img>
 					<price>5.0</price>
 				</item>
 				<item name="鸡腿肉汉堡">
-					<img>../img/food/汉堡.jpg</img>
+					<img>../img/food/smallimg_hb.jpg</img>
 					<price>7.0</price>
 				</item>
 				<item name="川香鸡柳">
-					<img>../img/food/汉堡.jpg</img>
+					<img>../img/food/smallimg_jl.jpg</img>
 					<price>7.0</price>
 				</item>
 				<item name="奥尔良对翅">
-					<img>../img/food/汉堡.jpg</img>
+					<img>../img/food/smallimg_dc.jpg</img>
 					<price>7.0</price>
 				</item>
 			</subcategory>
 			
 			<subcategory type="奶酪">
 				<item name="奶提子">
-					<img>../img/food/奶提子.jpg</img>
+					<img>../img/food/smallimg_ntz.jpg</img>
 					<price>15.0</price>
 				</item>
 				<item name="马背奶干">
-					<img>../img/food/奶干.jpg</img>
+					<img>../img/food/smallimg_ng.jpg</img>
 					<price size="大">25.0</price>
 					<price size="小">20.0</price>
 				</item>
 				<item name="牛初乳奶贝">
-					<img>../img/food/奶干.jpg</img>
+					<img>../img/food/smallimg_nb.jpg</img>
 					<price size="大">25.0</price>
 					<price size="小">20.0</price>
 				</item>
@@ -159,19 +159,19 @@
 			
 			<subcategory type="其它">
 				<item name="鲜奶面包">
-					<img>../img/food/烤肠.jpg</img>
+					<img>../img/food/smallimg_mb.jpg</img>
 					<price>3.0</price>
 				</item>
 				<item name="烤肠">
-					<img>../img/food/烤肠.jpg</img>
+					<img>../img/food/smallimg_kc.jpg</img>
 					<price>3.0</price>
 				</item>
 				<item name="爆米花">
-					<img>../img/food/爆米花.jpg</img>
+					<img>../img/food/smallimg_bmh.jpg</img>
 					<price>3.0</price>
 				</item>
 				<item name="鲜奶蛋挞">
-					<img>../img/food/蛋挞.jpg</img>
+					<img>../img/food/smallimg_dt.jpg</img>
 					<price>3.0</price>
 				</item>
 			</subcategory>
