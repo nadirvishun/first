@@ -15,3 +15,5 @@ include文件夹：用来存放上方的header文件和左侧小贴士。bottom�
 奶吧素材:从网上搜集的图片素材，由于没商用，自己练习，也说不上侵权吧。
 
 学到了很多，关于bootstrap，关于xml，关于git等。
+
+上传到SAE平台，具体效果可查看：http://1.vishun.sinaapp.com/html/index.php
